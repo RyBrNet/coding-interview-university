@@ -6,74 +6,11 @@
 > You probably won't have to study as much as I did. Anyway, everything you need is here.
 >
 > I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
->
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
->
-> *Best of luck to you!*
-
-<details>
-<summary>Translations:</summary>
-
-- [中文版本](translations/README-cn.md)
-- [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- [Español](translations/README-es.md)
-- [Português Brasileiro](translations/README-ptbr.md)
-- [Polish](translations/README-pl.md)
-- [繁體中文](translations/README-tw.md)
-- [Japanese (日本語)](translations/README-ja.md)
-- [Russian](translations/README-ru.md)
-- [German](translations/README-de.md)
-- [Bahasa Indonesia](translations/README-id.md)
-
-</details>
-
-<details>
-<summary>Translations in progress:</summary>
-
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
-- [French](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Urdu](https://github.com/jwasham/coding-interview-university/issues/519)
-- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
-- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
-- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-
-</details>
-
-## What is it?
-
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
-
-![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
-
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
-
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
-
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
-
----
-
+> 
 ## Table of Contents
 
 - [Coding Interview University](#coding-interview-university)
-  - [What is it?](#what-is-it)
   - [Table of Contents](#table-of-contents)
-  - [Additional Resources](#additional-resources)
-  - [Why use it?](#why-use-it)
-  - [How to use it](#how-to-use-it)
-  - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-  - [About Video Resources](#about-video-resources)
   - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
   - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
   - [Book List](#book-list)
@@ -81,7 +18,6 @@ If you want to be a reliability engineer or operations engineer, study more from
     - [If you have tons of extra time:](#if-you-have-tons-of-extra-time)
     - [Language Specific](#language-specific)
     - [C++](#c)
-    - [Java](#java)
     - [Python](#python)
   - [Before you Get Started](#before-you-get-started)
     - [1. You Won't Remember it All](#1-you-wont-remember-it-all)
@@ -116,130 +52,10 @@ If you want to be a reliability engineer or operations engineer, study more from
   - [Algorithms implementation](#algorithms-implementation)
   - [Papers](#papers)
   - [LICENSE](#license)
-
----------------- Everything below this point is optional ----------------
-
-## Additional Resources
-
-- [Coding Interview University](#coding-interview-university)
-  - [What is it?](#what-is-it)
-  - [Table of Contents](#table-of-contents)
-  - [Additional Resources](#additional-resources)
-  - [Why use it?](#why-use-it)
-  - [How to use it](#how-to-use-it)
-  - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-  - [About Video Resources](#about-video-resources)
-  - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-  - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-  - [Book List](#book-list)
-    - [Interview Prep](#interview-prep)
-    - [If you have tons of extra time:](#if-you-have-tons-of-extra-time)
-    - [Language Specific](#language-specific)
-    - [C++](#c)
-    - [Java](#java)
-    - [Python](#python)
-  - [Before you Get Started](#before-you-get-started)
-    - [1. You Won't Remember it All](#1-you-wont-remember-it-all)
-    - [2. Use Flashcards](#2-use-flashcards)
-    - [3. Start doing coding interview questions while you're learning data structures and algorithms](#3-start-doing-coding-interview-questions-while-youre-learning-data-structures-and-algorithms)
-    - [4. Review, review, review](#4-review-review-review)
-    - [5. Focus](#5-focus)
-  - [What you won't see covered](#what-you-wont-see-covered)
-  - [The Daily Plan](#the-daily-plan)
-  - [Prerequisite Knowledge](#prerequisite-knowledge)
-  - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-  - [Data Structures](#data-structures)
-  - [More Knowledge](#more-knowledge)
-  - [Trees](#trees)
-  - [Sorting](#sorting)
-  - [Graphs](#graphs)
-  - [Even More Knowledge](#even-more-knowledge)
-  - [System Design, Scalability, Data Handling](#system-design-scalability-data-handling)
-  - [Final Review](#final-review)
-  - [Coding Question Practice](#coding-question-practice)
-  - [Coding exercises/challenges](#coding-exerciseschallenges)
-  - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-  - [Your Resume](#your-resume)
-  - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-  - [Have questions for the interviewer](#have-questions-for-the-interviewer)
-  - [Once You've Got The Job](#once-youve-got-the-job)
-  - [Additional Books](#additional-books)
-  - [Additional Learning](#additional-learning)
-  - [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-  - [Video Series](#video-series)
-  - [Computer Science Courses](#computer-science-courses)
-  - [Algorithms implementation](#algorithms-implementation)
-  - [Papers](#papers)
-  - [LICENSE](#license)
-
----
-
-## Why use it?
-
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
-
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
-
-## How to use it
-
-Everything below is an outline, and you should tackle the items in order from top to bottom.
-
-I'm using Github's special markdown flavor, including tasks lists to check progress.
-
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
-
-    Fork a branch and follow the commands below
-
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button
-
-    Clone to your local repo
-
-`git clone git@github.com:<your_github_username>/coding-interview-university.git`
-
-`git checkout -b progress`
-
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
-
-`git fetch --all`
-
-    Mark all boxes with X after you completed your changes
-
-`git add .`
-
-`git commit -m "Marked x"`
-
-`git rebase jwasham/master`
-
-`git push --set-upstream origin progress`
-
-`git push --force`
-
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
-
-## Don't feel you aren't smart enough
-
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-
-## About Video Resources
-
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
-
 
 ## Interview Process & General Interview Prep
 
-- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [x] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [x] How to Get a Job at the Big 4:
@@ -264,28 +80,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 
 ## Pick One Language for the Interview
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
-
-- C++
-- Java
-- Python
-
-You could also use these, but read around first. There may be caveats:
-
-- JavaScript
-- Ruby
-
-Here is an article I wrote about choosing a language for the interview: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
-
-You need to be very comfortable in the language and be knowledgeable.
-
-Read more about choices:
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
-
-[See language resources here](programming-language-resources.md)
-
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Focus on C++ for the Code Interview with Python as a backup. Everything says to focus on just one.
 
 ## Book List
 
@@ -332,20 +127,6 @@ I haven't read these two, but they are highly rated and written by Sedgewick. He
     - Great for first-timers
 
 If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
-
-### Java
-
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!) on coursera:
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
-
-OR:
-
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics
 
 ### Python
 
