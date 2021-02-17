@@ -100,13 +100,6 @@ Choose one:
 
 ### Language Specific
 
-**You need to choose a language for the interview (see above).**
-
-Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
-
-If you read through one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
-
 [Additional language-specific resources here.](programming-language-resources.md)
 
 ### C++
@@ -229,9 +222,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Prerequisite Knowledge
 
-- [ ] **Learn C**
+- [x] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying
-    - [ ] [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+    - [x] [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work
         - [Answers to questions](https://github.com/lekkas/c-algorithms)
